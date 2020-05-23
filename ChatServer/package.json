@@ -1,0 +1,21 @@
+{
+  "name": "chat-server",
+  "version": "0.0.0",
+  "description": "ChatServer",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14",
+    "@types/ws": "^7.2.4",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "ws": "^7.2.5"
+  }
+}
